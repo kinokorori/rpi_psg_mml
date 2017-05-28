@@ -3,7 +3,7 @@
 from ymz294lib import ymz294
 from ymz294lib import sequencer
 
-#set GPIO number connecting to A0 ~ A7 pin
+#set GPIO number connecting to D0 ~ D7 pin
 dpins = (17,27,22,10,9,11,5,6)
 psg = ymz294.PSGPlayer(dpins, 18, 18, 24)
 
